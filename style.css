@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./image/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.contant h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    
+}
+.contant p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+.contant{ 
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.centerdiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.centerdiv a{
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    margin: 10px;
+
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+i{
+    margin: 40px;
+    font-size: 30px;
+}
+a i{
+    transform: all 0.3s linear;
+}
+ a :hover i{
+    transform: scale(1.4);
+}
+.head{
+    margin-top: -500px;
+    text-align: center;
+}
+.img1 img{
+    width: 295px;
+    height: 50vh;
+    border-radius: 50%;
+}
+.web{
+  
+    background-image: url(file:///C:/Users/pc/Desktop/portfolio/image/hacker-using-laptop-silhouette-with-skull-crossbones-logo-blue-binary-code-background_49941-125.webp);
+background-repeat: no-repeat;
+}
+
+.main2{
+    position: absolute;
+    right: 1%;
+    background-color: white;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.tand{
+    margin-bottom: -100px;
+}
+.work{
+    margin-top: 500px;
+    text-align: center;
+}
+.workout img{
+    width: 250px;
+    height: 250px;
+}
+.workout a h1 { 
+    color: #000;
+    text-decoration: none;
+}
+.parent{
+    display: flex;
+}
+.workout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
